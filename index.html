@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Gabriel Reina</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <meta name="description" content="Home Page, Dynamic Web Fundamentals, WDD131, Gabriel Reina">
+    <meta name="author" content="Gabriel Reina">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/gabrielreinamontaldo/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a>
+            <a href="">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Gabriel Reina</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, possimus. Eligendi sed dolores qui laboriosam, temporibus libero dolor sapiente! Debitis laudantium eligendi dolore suscipit reiciendis esse molestiae, provident odio necessitatibus incidunt ullam.</p>
+                <img src="images/profile_pict.webp" alt="Profile Picture">
+            </div>
+            <h3>Montevideo, Uruguay</h3>
+            <div class="location">
+                <figure>
+                    <img src="images/uruguayan_flag.webp" alt="Uruguayan Flag">
+                    <figcaption>Official Flag of Uruguay</figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus earum laboriosam quam officiis. Provident, obcaecati omnis consequuntur enim vitae dolore incidunt non. Ipsam, atque illo optio dolores incidunt itaque nostrum!</p>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://squoosh.app/">Squoosh</a></li>
+                <li><a href="https://coolors.co/">Coolors</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Gabriel Reina | Montevideo, UY</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
