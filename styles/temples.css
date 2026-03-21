@@ -1,0 +1,102 @@
+:root {
+    --color1: #11435e;
+    --color2: #2a7472;
+    --color3: #E4DFDA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color3);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color1);
+    color: white;
+    padding: 1rem;
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#menuBtn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+nav.open {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: var(--color2);
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    background: white;
+    padding: 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color1);
+    margin-top: 1rem;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
