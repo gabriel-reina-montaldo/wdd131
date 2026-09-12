@@ -1,9 +1,8 @@
 :root {
     --primary-color: rgb(13, 43, 67);
     --secondary-color: rgb(20, 67, 105);
-    --heading-font: "Segoe UI", Arial, sans-serif;
-    --body-font: "Segoe UI", Tahoma, Arial, sans-serif;
-    --italic-font: "Trebuchet MS", sans-serif;
+    --heading-font: "Poppins", sans-serif;
+    --body-font: "Open Sans", sans-serif;
 }
 
 * {
@@ -21,6 +20,10 @@ header,
 footer {
     width: 1100px;
     margin: 0 auto;
+}
+
+header {
+    margin-top: 5px;
 }
 
 #course-title {
