@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lLoo</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Gabriel Reina</title>
+    <meta name="description" content="WDD 131, Dynamic Web Fundamentals, Gabriel Reina, Home Page, HTML, CSS, Layout">
+    <meta name="author" content="Gabriel Reina">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/gabrielreinamontaldo/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Gabriel Reina Montaldo</h1>
+        <section class="card about-me">
+            <h2>About Me</h2>
+            <div class="about-top">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut praesentium saepe non inventore modi, iusto in assumenda vero vel eaque dolorum ipsam iste nihil, eos porro? Aspernatur, rerum exercitationem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error harum reiciendis deserunt facere quibusdam labore magnam voluptate ab tenetur.</p>
+                <img src="images/profile_pic.webp" width="100" alt="Profile Picture">
+            </div>
+            <div class="about-bottom">
+                <h3>Montevideo, Uruguay</h3>
+                <div class="location">    
+                    <img src="images/uruguayan_flag.webp" width="150" alt="Flag of Uruguay">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta labore rerum consectetur. Itaque consequatur officia autem, hic accusantium vel sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sequi laudantium cupiditate quae? Magnam, eligendi?</p>
+                </div>
+            </div>        
+        </section>
+        <section class="card web-resources">
+            <h2>Web Dev Resources</h2>
+            <div class="list">
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                    <li><a href="https://squoosh.app/">Squoosh</a></li>
+                    <li><a href="https://coolors.co/">Coolors</a></li>
+                    <li><a href="https://www.canva.com/">Canva</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">©<span id="currentyear"></span> | Gabriel Reina Montaldo | Montevideo, UY</p>
+        <p id="lastModified"></p>
+    </footer>    
 </body>
 </html>
